@@ -95,6 +95,9 @@ namespace Lab2
                 else
                     b2 = Convert.ToDouble(Input2_2.Text);
 
+                a1 = Convert.ToDouble(Input1_1.Text);
+                a2 = Convert.ToDouble(Input2_1.Text);
+
                 Complex Num1 = new Complex(a1, b1, a2, b2);
                 Complex Num2 = new Complex(a1, b1, a2, b2);
 
@@ -135,6 +138,9 @@ namespace Lab2
                 }
                 else
                     b2 = Convert.ToDouble(Input2_2.Text);
+
+                a1 = Convert.ToDouble(Input1_1.Text);
+                a2 = Convert.ToDouble(Input2_1.Text);
 
                 Complex Num1 = new Complex(a1, b1, a2, b2);
                 Complex Num2 = new Complex(a1, b1, a2, b2);
@@ -177,6 +183,9 @@ namespace Lab2
                 else
                     b2 = Convert.ToDouble(Input2_2.Text);
 
+                a1 = Convert.ToDouble(Input1_1.Text);
+                a2 = Convert.ToDouble(Input2_1.Text);
+
                 Complex Num1 = new Complex(a1, b1, a2, b2);
                 Complex Num2 = new Complex(a1, b1, a2, b2);
 
@@ -217,6 +226,9 @@ namespace Lab2
                 }
                 else
                     b2 = Convert.ToDouble(Input2_2.Text);
+
+                a1 = Convert.ToDouble(Input1_1.Text);
+                a2 = Convert.ToDouble(Input2_1.Text);
 
                 Complex Num1 = new Complex(a1, b1, a2, b2);
                 Complex Num2 = new Complex(a1, b1, a2, b2);
