@@ -15,9 +15,22 @@ using System.Windows.Shapes;
 
 namespace Lab1
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
+    public class Circle
+    {
+        int radius;
+        int x, y;
+    }
+
+    public class Square
+    {
+        int a, x, y;
+    }
+
+    public class Rectangle
+    {
+        int a, b, x, y;
+    }
+
     public partial class MainWindow : Window
     {
         public MainWindow()
