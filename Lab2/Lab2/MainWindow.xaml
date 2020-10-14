@@ -1,0 +1,56 @@
+﻿<Window x:Class="Lab2.MainWindow"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="820">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="40" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="10">
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Выберите операцию: " FontSize="20"/>
+                        <RadioButton x:Name="C1" VerticalAlignment="Center" Content="Сложение" FontSize="20" Checked="C1_Checked"/>
+                        <RadioButton x:Name="C2" VerticalAlignment="Center" Content="Вычитание" FontSize="20" Checked="C2_Checked"/>
+                        <RadioButton x:Name="C3" VerticalAlignment="Center" Content="Умножение" FontSize="20" Checked="C3_Checked"/>
+                        <RadioButton x:Name="C4" VerticalAlignment="Center" Content="Деление" FontSize="20" Checked="C4_Checked"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Center" Orientation="Vertical" VerticalAlignment="Top" Margin="10">
+                    <TextBlock Text="Внесите данные: " FontSize="20"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="z₁ =" FontSize="20" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBox x:Name="Input1_1" Width="50" Text="" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Label Content="+" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBox x:Name="Input1_2" Width="50" Text="" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Label Content="i" FontSize="20" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="z₂ =" FontSize="20" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBox x:Name="Input2_1" Width="50" Text="" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Label Content="+" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBox x:Name="Input2_2" Width="50" Text="" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Label Content="i" FontSize="20" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="10">
+                    <TextBlock Text="Profit!" FontSize="20"/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="z₁" FontSize="20" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBlock x:Name="Znak" Text="   " FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBlock Text="z₂ = " FontSize="20" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBox x:Name="Result1" Text="" FontSize="20" FontStyle="Italic" IsReadOnly="True" Width="100" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBlock x:Name="ZnakRes" Text="+" FontSize="20" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBox x:Name="Result2" Text="" FontSize="20" FontStyle="Italic" IsReadOnly="True" Width="100" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBlock Text="i" FontSize="20" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+            <Button x:Name="Go" Width="100" Height="30" Content="Решить" Click="Go_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
