@@ -24,16 +24,16 @@
                     <TextBlock Text="Внесите данные: " FontSize="20"/>
                     <StackPanel Orientation="Horizontal">
                         <Label Content="z₁ =" FontSize="20" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        <TextBox x:Name="Input1_1" Width="50" Text="" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBox x:Name="Input1_1" Width="50" Text="" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Right"/>
                         <Label Content="+" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        <TextBox x:Name="Input1_2" Width="50" Text="" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBox x:Name="Input1_2" Width="50" Text="" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Right"/>
                         <Label Content="i" FontSize="20" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Label Content="z₂ =" FontSize="20" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        <TextBox x:Name="Input2_1" Width="50" Text="" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBox x:Name="Input2_1" Width="50" Text="" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Right"/>
                         <Label Content="+" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        <TextBox x:Name="Input2_2" Width="50" Text="" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBox x:Name="Input2_2" Width="50" Text="" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Right"/>
                         <Label Content="i" FontSize="20" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </StackPanel>
                 </StackPanel>
@@ -43,9 +43,9 @@
                         <TextBlock Text="z₁" FontSize="20" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         <TextBlock x:Name="Znak" Text="   " FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         <TextBlock Text="z₂ = " FontSize="20" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        <TextBox x:Name="Result1" Text="" FontSize="20" FontStyle="Italic" IsReadOnly="True" Width="100" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBox x:Name="Result1" Text="" FontSize="20" FontStyle="Italic" IsReadOnly="True" Width="100" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Right"/>
                         <TextBlock x:Name="ZnakRes" Text="+" FontSize="20" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        <TextBox x:Name="Result2" Text="" FontSize="20" FontStyle="Italic" IsReadOnly="True" Width="100" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBox x:Name="Result2" Text="" FontSize="20" FontStyle="Italic" IsReadOnly="True" Width="100" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Right"/>
                         <TextBlock Text="i" FontSize="20" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </StackPanel>
                 </StackPanel>

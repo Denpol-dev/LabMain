@@ -73,7 +73,7 @@ namespace Lab2
         {
             if (C1.IsChecked == true)
             {               
-                if (Input1_2.Text == null)
+                if (Input1_2.Text == "")
                 {
                     b1 = 1.0;
                 }
@@ -84,7 +84,7 @@ namespace Lab2
                 else
                     b1 = Convert.ToDouble(Input1_2.Text);
 
-                if (Input2_2.Text == null)
+                if (Input2_2.Text == "")
                 {
                     b2 = 1.0;
                 }
@@ -117,7 +117,7 @@ namespace Lab2
             }
             else if (C2.IsChecked == true)
             {
-                if (Input1_2.Text == null)
+                if (Input1_2.Text == "")
                 {
                     b1 = 1.0;
                 }
@@ -128,7 +128,7 @@ namespace Lab2
                 else
                     b1 = Convert.ToDouble(Input1_2.Text);
 
-                if (Input2_2.Text == null)
+                if (Input2_2.Text == "")
                 {
                     b2 = 1.0;
                 }
@@ -161,7 +161,7 @@ namespace Lab2
             }
             else if (C3.IsChecked == true)
             {
-                if (Input1_2.Text == null)
+                if (Input1_2.Text == "")
                 {
                     b1 = 1.0;
                 }
@@ -172,7 +172,7 @@ namespace Lab2
                 else
                     b1 = Convert.ToDouble(Input1_2.Text);
 
-                if (Input2_2.Text == null)
+                if (Input2_2.Text == "")
                 {
                     b2 = 1.0;
                 }
@@ -205,7 +205,7 @@ namespace Lab2
             }
             else if (C4.IsChecked == true)
             {
-                if (Input1_2.Text == null)
+                if (Input1_2.Text == "")
                 {
                     b1 = 1.0;
                 }
@@ -216,7 +216,7 @@ namespace Lab2
                 else
                     b1 = Convert.ToDouble(Input1_2.Text);
 
-                if (Input2_2.Text == null)
+                if (Input2_2.Text == "")
                 {
                     b2 = 1.0;
                 }
