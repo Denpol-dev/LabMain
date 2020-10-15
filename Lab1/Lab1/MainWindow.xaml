@@ -7,37 +7,89 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab1"
         mc:Ignorable="d"
-        Title="Lab 1" Height="450" Width="800">
+        Title="Lab 1" Height="500" Width="1280">
     <Grid>
-        <StackPanel Margin="50" Orientation="Horizontal" HorizontalAlignment="Center">
-            <StackPanel Margin="10" HorizontalAlignment="Center">
-                <RadioButton x:Name="Circle" Content="Круг"/>
-                <RadioButton x:Name="Square" Content="Квадрат"/>
-                <RadioButton x:Name="Rectangle" Content="Прямоугольник"/>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Margin="50" Orientation="Horizontal" HorizontalAlignment="Left">
+                <StackPanel Margin="0, 0, 50, 0" VerticalAlignment="Center" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel Margin="10" HorizontalAlignment="Center">
+                            <TextBlock Text="Фигура 1" TextAlignment="Center"/>
+                            <RadioButton x:Name="Circle1" Content="Круг" Checked="Circle1_Checked"/>
+                            <RadioButton x:Name="Square1" Content="Квадрат" Checked="Square1_Checked"/>
+                            <RadioButton x:Name="Rectangle1" Content="Прямоугольник" Checked="Rectangle1_Checked"/>
+                        </StackPanel>
+                        <StackPanel  Margin="10" HorizontalAlignment="Center">
+                            <StackPanel x:Name="xQ1S" Orientation="Horizontal" Visibility="Collapsed">
+                                <TextBlock Text="Координата x" TextAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBox x:Name="xQ1" Width="50" Margin="5"/>
+                            </StackPanel>
+                            <StackPanel x:Name="yQ1S" Orientation="Horizontal" Visibility="Collapsed">
+                                <TextBlock Text="Координата y" TextAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBox x:Name="yQ1" Width="50" Margin="5"/>
+                            </StackPanel>
+                            <StackPanel x:Name="aQ1S" Orientation="Horizontal" Visibility="Collapsed">
+                                <TextBlock Text="Сторона a" TextAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBox x:Name="aQ1" Width="50" Margin="5"/>
+                            </StackPanel>
+                            <StackPanel x:Name="bQ1S" Orientation="Horizontal" Visibility="Collapsed">
+                                <TextBlock Text="Сторона b" TextAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBox x:Name="bQ1" Width="50" Margin="5"/>
+                            </StackPanel>
+                            <StackPanel x:Name="rQ1S" Orientation="Horizontal" Visibility="Collapsed">
+                                <TextBlock Text="Радиус" TextAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBox x:Name="rQ1" Width="50" Margin="5"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel Margin="10" HorizontalAlignment="Center">
+                            <TextBlock Text="Фигура 2" TextAlignment="Center"/>
+                            <RadioButton x:Name="Circle2" Content="Круг" Checked="Circle2_Checked"/>
+                            <RadioButton x:Name="Square2" Content="Квадрат" Checked="Square2_Checked"/>
+                            <RadioButton x:Name="Rectangle2" Content="Прямоугольник" Checked="Rectangle2_Checked"/>
+                        </StackPanel>
+                        <StackPanel Margin="10" HorizontalAlignment="Center">
+                            <StackPanel x:Name="xQ2S" Orientation="Horizontal" Visibility="Collapsed">
+                                <TextBlock Text="Координата x" TextAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBox x:Name="xQ2" Width="50" Margin="5"/>
+                            </StackPanel>
+                            <StackPanel x:Name="yQ2S" Orientation="Horizontal" Visibility="Collapsed">
+                                <TextBlock Text="Координата y" TextAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBox x:Name="yQ2" Width="50" Margin="5"/>
+                            </StackPanel>
+                            <StackPanel x:Name="aQ2S" Orientation="Horizontal" Visibility="Collapsed">
+                                <TextBlock Text="Сторона a" TextAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBox x:Name="aQ2" Width="50" Margin="5"/>
+                            </StackPanel>
+                            <StackPanel x:Name="bQ2S" Orientation="Horizontal" Visibility="Collapsed">
+                                <TextBlock Text="Сторона b" TextAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBox x:Name="bQ2" Width="50" Margin="5"/>
+                            </StackPanel>
+                            <StackPanel x:Name="rQ2S" Orientation="Horizontal" Visibility="Collapsed">
+                                <TextBlock Text="Радиус" TextAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBox x:Name="rQ2" Width="50" Margin="5"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Margin="10" HorizontalAlignment="Center">
+                    <TextBlock x:Name="Answer" Text="Ответ: "/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Координата x" TextAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBox x:Name="xAns" Width="50" Margin="5" IsReadOnly="True"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Координата y" TextAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBox x:Name="yAns" Width="50" Margin="5" IsReadOnly="True"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Margin="10" HorizontalAlignment="Center">
+                    <TextBlock Text="Coming soon"/>
+                </StackPanel>
             </StackPanel>
-            <StackPanel Margin="10" HorizontalAlignment="Center">
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="Координата x" TextAlignment="Center" VerticalAlignment="Center"/>
-                    <TextBox x:Name="x" Width="50" Margin="5"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="Координата y" TextAlignment="Center" VerticalAlignment="Center"/>
-                    <TextBox x:Name="y" Width="50" Margin="5"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="Сторона a" TextAlignment="Center" VerticalAlignment="Center"/>
-                    <TextBox x:Name="a" Width="50" Margin="5"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="Сторона b" TextAlignment="Center" VerticalAlignment="Center"/>
-                    <TextBox x:Name="b" Width="50" Margin="5"/>
-                </StackPanel>
-            </StackPanel>
-            <StackPanel Margin="10" HorizontalAlignment="Center">
-                <TextBlock x:Name="Answer" Text="Ответ: "/>
-            </StackPanel>
-            <StackPanel Margin="10" HorizontalAlignment="Center">
-                <TextBlock Text="Coming soon"/>
+            <StackPanel Margin="10">
+                <Button x:Name="Go" Width="150" Content="Решить" Click="Go_Click"/>
             </StackPanel>
         </StackPanel>
     </Grid>
