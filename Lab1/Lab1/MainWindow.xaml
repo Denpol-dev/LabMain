@@ -76,12 +76,14 @@
                 <StackPanel Margin="10" HorizontalAlignment="Center">
                     <TextBlock x:Name="Answer" Text="Ответ: "/>
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Координата x" TextAlignment="Center" VerticalAlignment="Center"/>
-                        <TextBox x:Name="xAns" Width="50" Margin="5" IsReadOnly="True"/>
+                        <TextBlock Text="Точка 1" TextAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBox x:Name="x1Ans" Width="50" Margin="5" IsReadOnly="True"/>
+                        <TextBox x:Name="y1Ans" Width="50" Margin="5" IsReadOnly="True"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Координата y" TextAlignment="Center" VerticalAlignment="Center"/>
-                        <TextBox x:Name="yAns" Width="50" Margin="5" IsReadOnly="True"/>
+                        <TextBlock Text="Точка 2" TextAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBox x:Name="x2Ans" Width="50" Margin="5" IsReadOnly="True"/>
+                        <TextBox x:Name="y2Ans" Width="50" Margin="5" IsReadOnly="True"/>
                     </StackPanel>
                 </StackPanel>
                 <StackPanel Margin="10" HorizontalAlignment="Center">
