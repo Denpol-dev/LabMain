@@ -15,21 +15,6 @@ using System.Windows.Shapes;
 
 namespace Lab3
 {
-    public class Organization <AMS>
-    {
-
-    }
-
-    public class Fixed_Wage<T> : Organization <T>
-    {
-
-    }
-
-    public class Hourly<T> : Organization <T>
-    {
-
-    }
-
     public partial class MainWindow : Window
     {
         public MainWindow()

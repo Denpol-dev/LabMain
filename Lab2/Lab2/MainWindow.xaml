@@ -7,7 +7,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="820">
+        Title="Вычисления комплексный чисел" Height="350" Width="820">
     <Grid>
         <StackPanel>
             <StackPanel Orientation="Horizontal" Margin="40" VerticalAlignment="Center" HorizontalAlignment="Center">
